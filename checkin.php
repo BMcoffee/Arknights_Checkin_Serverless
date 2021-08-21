@@ -870,7 +870,7 @@ function auto_get_mission_rewards($player,$type){
             foreach ($j->items as $item) {
                 $inform .= "{$item->type}共{$item->count}个";
             }
-            report_normal("<font color=\"#90EE90\">获取任务奖励完成:</font>, 获得物品: {$inform}");
+            report_normal("<font color=\"#90EE90\">获取任务奖励完成:</font> 获得物品: {$inform}");
         }
     }
 }
